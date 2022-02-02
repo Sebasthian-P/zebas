@@ -180,13 +180,14 @@ main section .bg {
 }
 
 #sect__banner #first__nav .menu {
+    position: relative;
     display: flex;
     align-items: center;
 }
 
 #sect__banner #first__nav .menu h2 {
     position: absolute;
-    left: 55px;
+    left: 17px;
     font-weight: 300;
     font-family: inherit;
     margin-left: .5rem;
