@@ -38,9 +38,10 @@ i {
 
 header {
     width: 100%;
-    height: 3.3rem;
-    background-color: rgba(0, 0, 0, .2);
-    backdrop-filter: blur(60px);
+    height: 60px;
+    background: rgba(0,0,0,0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
     background-position: top;
     color: #fff;
     position: fixed;
