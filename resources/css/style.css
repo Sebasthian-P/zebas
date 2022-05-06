@@ -626,42 +626,6 @@ main section .bg {
 }
 
 
-
-/* Hover Services */
-
-/*
-#sect__services .service:hover {
-    outline: none;
-}
-
-
-#sect__services .service:hover .bg{
-    opacity: 1;
-}
-
-
-#sect__services .service:hover .bg h3,
-#sect__services .service:hover .bg p,
-#sect__services .service:hover .bg .btn {
-    transform: translateX(0px) translateY(0px);
-    opacity: 1;
-}
-
-#sect__services .service:hover .bg h3 {
-    transition: transform 300ms .2s;
-}
-
-#sect__services .service:hover .bg p {
-    transition: transform 300ms .6s;
-}
-
-#sect__services .service:hover .bg .btn {
-    transition: transform 600ms .9s;
-}
-*/
-
-#sect__services .box__services .service:hover aside {
-}
 /*---  COMPANY INFORMATION  ---*/
 
 #company__info {
