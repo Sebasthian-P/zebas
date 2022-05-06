@@ -302,7 +302,7 @@ main section .bg {
 #sect__banner .bg__hero {
     justify-content: center;
     position: relative;
-    background-image: url(/resources/images/bg__forest.png);
+    background-image: url(../images/bg__forest.png);
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
