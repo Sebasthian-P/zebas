@@ -22,26 +22,16 @@
 
 
 
-@media only screen and (max-width: 1250px) {
-
-    header .nav__bar {
+@media only screen and (max-width: 1080px) {
+    #forms #card {
         display: none;
     }
 
-    header .signin {
-        display: inline-flex;
+    #forms #container {
     }
 
-    header .box__login {
-        flex-grow: 15;
-        justify-content: end;
-    }
-
-    header .box__login .signin {
-        background-color: transparent;
-        border: 1px solid #f8f9f9;
-        color: #f8f9f9;
-        margin-left: 1.5rem;
+    #forms #card__two {
+        width: 100%;
     }
 }
 
@@ -49,15 +39,6 @@
 @media only screen and (max-width: 940px) {
 
     /* SECTION SERVICES */
-
-    #sect__services .box__services {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #sect__services .box__services .service {
-        width: 80%;
-    }
 
     /* INFO COMPANY */
 
@@ -72,15 +53,8 @@
 
 
     /*  SECTION DRIVERS  */
-
+/*
     #sect__drivers .drivers {
-        width: 80%;
-        height: 30rem;
-        flex-direction: column;
-        padding: .3rem;
-        border-right: 7px solid rgb(32, 32, 32);
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
     }
 
     #sect__drivers::before {
@@ -88,37 +62,57 @@
     }
 
     #sect__drivers .drivers .driver {
-        width: 50%;
-        height: 6rem;
-        flex-direction: column;
-        border-radius: 5px;
     }
 
     #sect__drivers .driver .bg {
-        position: relative;
-        left: 95%;
-        transform: scale(.6);
-        opacity: 1;
-        border-radius: 10px;
-        background: none;
     }
 
     #sect__drivers .drivers .driver:hover .bg {
-        background-color: rgba(0, 0, 0, 0.1);
-        border: 2px solid rgba(255, 255, 255, 0.3);
-        transform: scale(.7);
     }
+    */
 }
 
 
 
 @media only screen and (max-width: 900px) {
 
+    header {
+        padding: .5rem 1.5rem;
+    }
+
+    header .card {
+        display: block;
+    }
+
+    header .nav__bar {
+        display: none;
+    }
+
+    header .box__login {
+        display: none;
+    }
+
+    #drop__down__menu__two {
+        display: block;
+    }
+
+    header #grip-box-two {
+        display: flex;
+    }
+
+    header .box__logo {
+        transform: scale(.9);
+    }
+
     /* FIRST NAV */
 
 
     #sect__banner #first__nav {
         padding: 0 2rem;
+    }
+
+    #sect__banner #first__nav .menu h2 {
+        display: none;
     }
 
 
@@ -165,7 +159,6 @@
         top: 90%;
         left: 25%;
         color: rgb(44, 44, 44);
-        z-index: 10000;
     }
 
     /*---  REGISTER SECTION ---*/
@@ -196,5 +189,65 @@
         border-radius: 5px;
         background-color: rgba(0, 0, 0, 0.3);
         font-size: .7em;
+    }
+
+    #sect__banner .bg__banner .forest {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    #nav__last #sect__networks i {
+        display: none;
+    }
+
+    #nav__last #sect__networks {
+        justify-content: center;
+    }
+
+    #nav__last #sect__networks h5 {
+        display: block;
+    }
+
+
+    #drop__down__menu {
+        left: -110%;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    #forms #container {
+        width: 100%;
+    }
+
+    #card__two {
+        padding: 50px 20px;
+    }
+
+    #forms .box__register h2 {
+        font-size: .9em;
+    }
+
+    #card__two #line__splice {
+        height: 3px;
+        width: 50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        position: absolute;
+        bottom: -15px;
+        left: 5px;
+        transition: transform 300ms;
+    }
+    
+}
+
+@media only screen and (max-width: 353px) {
+
+    #forms .box__check h5 {
+        margin-bottom: 10px;
     }
 }

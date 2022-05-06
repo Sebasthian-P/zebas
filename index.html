@@ -12,16 +12,114 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Karla:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f0071ab691.js" crossorigin="anonymous"></script>
+    <script src="./resources/js/index.js" defer></script>
     <title>Zebas</title>
 </head>
 <body>
+    <div id="forms">
+        <div id="container">
+            <div id="card">
+                <h2>Unete completamente gratis!!</h2>
+                <img src="./resources/images/register.png" alt="">
+            </div>
+            <div id="card__two">
+                <div id="grip-box-form">
+                    <div class="grip-line"></div>
+                    <div class="grip-line"></div>
+                </div>
+                <div class="box__register">
+                    <h2 id="text__signup" >Sign Up</h2>
+                    <h2 id="text__signin" >Sign In</h2>
+                    <div id="line__splice"></div>
+                </div>
+                <div class="box__forms">
+                    <form action="" method="get" id="form__signup">
+                        <div class="bg"></div>
+                            <div class="box__fullname item">
+                                <label for="name">Fullname</label>
+                                <input type="text" id="fullname" placeholder="Enter your full name" required>
+                            </div>    
+                            
+                            <div class="box__password item">
+                                <label for="pass">Password</label>
+                                <input type="password" id="pass" placeholder="Enter your password" required>
+                            </div>
+            
+                            <div class="box__email item">
+                                <label for="mail">Email</label>
+                                <input type="email" id="mail" placeholder="Enter your email" required>
+                            </div>
+            
+                            <div class="box__check">
+                                <h5>Mantener la sesion iniciada</h5>
+                                <div id="swt">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+            
+                            <div class="box__btn">
+                                <input type="button" value="Sign up" form="form__signup">
+                            </div>
+                    </form>
+        
+        
+                    <form action="" method="get" id="form__signin">
+                            <div class="box__fullname item">
+                                <label for="name">Username</label>
+                                <input type="text" id="fullname" placeholder="Enter your full name" required>
+                            </div>    
+                            
+                            <div class="box__password item">
+                                <label for="pass">Password</label>
+                                <input type="password" id="pass" placeholder="Enter your password" required>
+                            </div>
+            
+                            <div class="box__email item">
+                                <label for="mail">Email</label>
+                                <input type="email" id="mail" placeholder="Enter your email" required>
+                            </div>
+            
+                            <div class="box__check">
+                                <h5>Mantener la sesion iniciada</h5>
+                                <div id="swt">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+            
+                            <div class="box__btn">
+                                <input type="button" value="Sign In" form="form__signin">
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header>
+        <div id="drop__down__menu__two">
+            <ul>
+                <li>Servicios</li>
+                <li>Compania</li>
+                <li>Productos</li>
+                <li>Ayuda</li>
+                <li>Otros</li>
+                <li>Sobre Nosotros</li>
+            </ul>
+        </div>
+        <div id="grip-box-two">
+            <div class="grip-line line-one"></div>
+            <div class="grip-line line-two"></div>
+        </div>
         <div class="box__logo">
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="circle"></div>
         </div>
+        <i class="fa-solid fa-credit-card card"></i>
         <nav class="nav__bar">
             <ul>
                 <li><a href="#sect__services">Servicios</a></li>
@@ -31,49 +129,164 @@
             </ul>
         </nav>
         <div class="box__login">
-            <input class="btn login" type="button" value="Log in">
-            <input class="btn signin" type="button" value="Sign in">
+            <button class="btn login">Log in</button>
+            <button class="btn signin">Sign up</button>
         </div>
     </header>
 
     <main>
+        <div id="drop__down__menu">
+            <h3 id="closebtn" >Cerrar</h3>
+            <ul>
+                <li>Servicios</li>
+                <li>Compania</li>
+                <li>Productos</li>
+                <li>Ayuda</li>
+                <li>Otros</li>
+                <li>Sobre Nosotros</li>
+            </ul>
+        </div>
         <section id="sect__banner">
-            <div class="bg">
+            <div id="fondo"></div>
+            <div class="bg__banner">
+                <img class="waiting" src="/resources/images/bg__taxi-waiting.png" alt="">
+            </div>
+            <div class="box__birds">
+                <img src="/resources/images/bird2.png" alt="bird">
+                <img src="/resources/images/bird2.png" alt="bird">
+                <img src="/resources/images/birds.png" alt="birds">
+            </div>
+            <div class="bg__hero">
                 <nav id="first__nav">
                     <div class="menu">
-                        <i class="fas fa-grip-lines"></i>
+                        <div id="grip-box">
+                            <div class="grip-line"></div>
+                            <div class="grip-line"></div>
+                        </div>
                         <h2>Menu</h2>
                     </div>
                     <div class="name__company">
-                        <h1>Zebas inc</h1>
+                        <h1>Z<wht>_</wht>inc</h1>
                     </div>
                     <div class="box__cart">
-                        <i class="fas fa-cart-arrow-down"></i>
+                        <i class="fa-solid fa-credit-card"></i>
+                        <div class="lines"></div>
                     </div>
                 </nav>
                 <section class="banner">
                     <h2>Home</h2>
-                    <h5 class="signin">Sign in</h5>
+                    <h5 id="signupBtn" class="signin">Sign up</h5>
                 </section>
             </div>
         </section>
 
         <section id="sect__services">
-            <h2>Nuestros servicios</h2>
+            <h2>Our Services</h2>
+            <div class="line"></div>
             <div class="box__services">
                 <div class="service service__one">
-                    <div class="bg">
+                    <i class="fa-solid fa-car"></i>
+                    <h3>Rent a Car</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
                         <h3>Standard</h3>
-                        <p>Un servicio para las personas comunes</p>
-                        <input class="btn" type="button" value="Elegir">
-                    </div>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
                 </div>
                 <div class="service service__two">
-                    <div class="bg">
-                        <h3>Express</h3>
-                        <p>Llegar a tu destino nunca habia sido tan <b>express</b></p>
-                        <input class="btn" type="button" value="Elegir">
-                    </div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3>Rent a Rocket</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
+                        <h3>Standard</h3>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
+                </div>
+                <div class="service service__one">
+                    <i class="fa-solid fa-caravan"></i>
+                    <h3>Rent a Caravan</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
+                        <h3>Standard</h3>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
+                </div>
+                <div class="service service__one">
+                    <i class="fa-solid fa-bicycle"></i>
+                    <h3>Rent a Bicycle</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
+                        <h3>Standard</h3>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
+                </div>
+                <div class="service service__one">
+                    <i class="fa-solid fa-ship"></i>
+                    <h3>Rent a Ship</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
+                        <h3>Standard</h3>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
+                </div>
+                <div class="service service__one">
+                    <i class="fa-solid fa-helicopter"></i>
+                    <h3>Rent a Helicopter</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
+                        <h3>Standard</h3>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
+                </div>
+                <div class="service service__one">
+                    <i class="fa-solid fa-bus"></i>
+                    <h3>Rent a Bus</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
+                        <h3>Standard</h3>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
+                </div>
+                <div class="service service__one">
+                    <i class="fa-solid fa-building"></i>
+                    <h3>Rent a Building</h3>
+                    <aside>
+                        <div class="more">More</div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </aside>
+                    <!--<div class="bg">
+                        <h3>Standard</h3>
+                        <p>Rent a car</p>
+                        <button class="btn">Separate</button>
+                    </div>-->
                 </div>
             </div>
             <div id="company__info">
@@ -100,24 +313,72 @@
 
         <section id="sect__drivers">
             <h2>Conductores de alta fidelidad</h2>
-            <p>Descuida, tu viaje y tu seguridad están en buenas manos.</p>
+            <h4>Descuida, tu viaje y tu seguridad están en buenas manos.</h4>
             <div class="drivers">
                 <div class="driver driver__one">
                     <div class="bg">
-                        <h3>Nathan</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3>Nathan Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
                     </div>
                 </div>
                 <div class="driver driver__two">
                     <div class="bg">
-                        <h3>Ethan</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3>Ethan Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
                     </div>
                 </div>
                 <div class="driver driver__three">
                     <div class="bg">
-                        <h3>André</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3>André Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__one">
+                    <div class="bg">
+                        <h3>Nathan Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__two">
+                    <div class="bg">
+                        <h3>Ethan Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__three">
+                    <div class="bg">
+                        <h3>André Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__three">
+                    <div class="bg">
+                        <h3>André Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__three">
+                    <div class="bg">
+                        <h3>André Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__three">
+                    <div class="bg">
+                        <h3>André Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__three">
+                    <div class="bg">
+                        <h3>André Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                    </div>
+                </div>
+                <div class="driver driver__three">
+                    <div class="bg">
+                        <h3>André Drake</h3>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
                     </div>
                 </div>
             </div>
@@ -129,7 +390,7 @@
             <div class="products">
                 <div class="product product__one">
                     <div class="download">
-                        <img src="./resources/images/download.gif" alt="download">
+                        <i class="fa-solid fa-download"></i>
                     </div>
                     <div class="arrow">
                         <i class="fas fa-arrow-left"></i>
@@ -149,7 +410,7 @@
                 </div>
                 <div class="product product__two">
                     <div class="download">
-                        <img src="./resources/images/download.gif" alt="download">
+                        <i class="fa-solid fa-download"></i>
                     </div>
                     <div class="arrow">
                         <i class="fas fa-arrow-left"></i>
@@ -232,6 +493,7 @@
             </div>
     
             <section id="sect__networks">
+                <h5>Social Networks</h5>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-youtube"></i>
                 <i class="fab fa-instagram"></i>
